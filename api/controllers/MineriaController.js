@@ -8,10 +8,9 @@
 const async = require('async');
 
 module.exports = {
-  
     holaMundo: async (req, res) => {
         const obj = await Mineria.holaMundo('HolaMundo');
         return res.json(obj);
-      },
+    },
 };
 
