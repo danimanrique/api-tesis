@@ -13,6 +13,8 @@
  * https://sailsjs.com/config/datastores
  */
 
+const config = require('../config.private')
+
 module.exports.datastores = {
 
 
@@ -49,7 +51,7 @@ module.exports.datastores = {
     *                                                                          *
     ***************************************************************************/
     adapter: 'sails-mysql',
-    url: 'mysql://usuario:12qwaszx@host:port/database',
+    url: config.url
 
   },
 

@@ -1,3 +1,8 @@
 module.exports = {
-    url:'MI URL DE CONEXIÓN A MYSQL'
+    
+    // Ejemplo-> url: 'mysql://usuario:clave@localhost:3306/nombre_db',
+    url:'MI URL DE CONEXIÓN A MYSQL',
+
+    secret: 'mysecret'
+
 }

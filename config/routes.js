@@ -38,7 +38,9 @@ module.exports.routes = {
    * not match any of those, it is matched against static assets.             *
    *                                                                          *
    ***************************************************************************/
-  
+    /* Mineria Controller */
    'get /holaMundo': 'MineriaController/holaMundo',
 
+   /* UsuarioAdmin Controller*/
+   'post /usuarioadmin/login': 'UsuarioAdmin/login'
 };
