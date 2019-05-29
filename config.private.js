@@ -1,3 +1,5 @@
-module.exports= {
-	url: 'mysql://root:Usrddhh.8407@ddhh.fi.uncoma.edu.ar:3306/asq',
+module.exports = {
+  url:'mysql://dani:meverasvolver@localhost:3306/etl_db',
+  secret: 'mysecret'
 }
+

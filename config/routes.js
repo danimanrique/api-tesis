@@ -42,5 +42,7 @@ module.exports.routes = {
    'get /holaMundo': 'MineriaController/holaMundo',
 
    /* UsuarioAdmin Controller*/
-   'post /usuarioadmin/login': 'UsuarioAdmin/login'
+   'post /usuarioadmin/login': 'UsuarioAdmin/login',
+
+   'get /testimonio': 'TestimonioController/testimonio'
 };
