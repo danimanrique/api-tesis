@@ -11,18 +11,17 @@ module.exports = {
   attributes: {
     createdAt: false,
     updatedAt: false,
-    id: false,
-    id_cumpa: { 
-      type:"number", 
-      required:true, 
-      unique: true 
+    id: {
+      type: 'number',
+      columnName: 'id_cumpa',
+      required: true
     },
     apellido1: {
       type: 'string',
       required: false
     },
     apellido2: {
-      type: 'number',
+      type: 'string',
       required: false
     },
     nombre1: {

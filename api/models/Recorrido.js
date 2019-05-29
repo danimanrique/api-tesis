@@ -1,29 +1,46 @@
 /**
- * Vio.js
+ * Recorrido.js
  *
- * @description :: A model definition.  Represents a database table/collection/etc.
+ * @description :: A model definition represents a database table/collection.
  * @docs        :: https://sailsjs.com/docs/concepts/models-and-orm/models
  */
 
 module.exports = {
-  tableName: 'vio',
+
+  tableName: 'recorrido',
   attributes: {
     createdAt: false,
     updatedAt: false,
-    id_testimonio: {
-      model: 'testimonio',
-      required: true
+    id_testimonio: { 
+      required: true,
+      model: 'testimonio'
     },
     id_testimoniante: {
-      model: 'testimoniante',
+      required: true,
+      model: 'testimoniante'
+    },
+    apellido1: {
+      type: 'string',
       required: false
     },
-    id_cumpa: {
-      model: 'cumpa',
+    apellido2: {
+      type: 'string',
+      required: false
+    },
+    nombre1: {
+      type: 'string',
+      required: true
+    },
+    nombre2: {
+      type: 'string',
+      required: false
+    },
+    apodo: {
+      type: 'string',
       required: false
     },
     id_campo_actual: {
-      model: 'campo',
+      model: 'testimonio',
       required: false
     },
     id_modo_info: {
@@ -105,6 +122,7 @@ module.exports = {
       type: 'number',
       required: false
     }
-  },
+  }
+
 };
 

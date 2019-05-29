@@ -12,15 +12,15 @@ module.exports = {
     createdAt: false,
     updatedAt: false,
     id_testimoniante: {
-      type: 'number',
+      model: 'testimoniante',
       required: true
     },
     id_fuente: {
-      type: 'number',
+      model: 'fuente',
       required: true
     },
     id_campo_origen: {
-      type: 'number',
+      model: 'campo',
       required: true
     },
     fecha_testimonio: {

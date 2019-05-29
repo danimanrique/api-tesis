@@ -20,16 +20,16 @@ module.exports = {
       required: true
     },
     apellido1: {
-      type: 'number',
+      type: 'string',
       required: false
     },
     apellido2: {
-      type: 'number',
+      type: 'string',
       required: false
     },
     nombre1: {
       type: 'string',
-      required: false
+      required: true
     },
     nombre2: {
       type: 'string',
@@ -39,6 +39,42 @@ module.exports = {
       type: 'string',
       required: false
     },
-    //.......
+    fecha_nacimiento: {
+      type: 'ref',
+      columnType: 'date',
+      defaultsTo: null,
+    },
+    tipo_doc: {
+      type: 'number',
+      required: false
+    },
+    nro_doc: {
+      type: 'number',
+      required: false
+    },
+    domicilio: {
+      type: 'string',
+      required: false
+    },
+    telefonos: {
+      type: 'string',
+      required: false
+    },
+    casado_con: {
+      type: 'string',
+      required: false
+    },
+    edad: {
+      type: 'number',
+      required: false
+    },
+    sexo: {
+      type: 'string',
+      required: true
+    },
+    observaciones: {
+      type: 'string',
+      required: false
+    }
   }
 }
