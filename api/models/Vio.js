@@ -97,7 +97,7 @@ module.exports = {
       type: 'string',
       required: false
     },
-    relaciones_con_otros_detenidos: {
+    relacion_con_otros_detenidos: {
       type: 'string',
       required: false
     },
