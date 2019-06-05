@@ -40,7 +40,7 @@ module.exports = {
       required: false
     },
     id_campo_actual: {
-      model: 'testimonio',
+      model: 'campo',
       required: false
     },
     id_modo_info: {
@@ -114,7 +114,7 @@ module.exports = {
       type: 'string',
       required: false
     },
-    relaciones_con_otros_detenidos: {
+    relacion_con_otros_detenidos: {
       type: 'string',
       required: false
     },
