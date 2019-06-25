@@ -44,5 +44,10 @@ module.exports.routes = {
    /* UsuarioAdmin Controller*/
    'post /usuarioadmin/login': 'UsuarioAdmin/login',
 
-   'get /testimonio': 'TestimonioController/testimonio'
+   'get /testimonio': 'TestimonioController/testimonio',
+
+
+   /* Consumer Controller */
+   'get /check': 'ConsumerController/check'
+
 };
