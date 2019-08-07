@@ -1,10 +1,10 @@
 module.exports = {
-  url:'mysql://@localhost:3306/etl_db',
+  url:'mysql://dani:meverasvolver@localhost:3306/etl_db',
   secret: 'mysecret',
   // Datos de conexión a la base ASQ
-  host     : '',
-  user     : '',
-  password : '',
+  host     : 'localhost',
+  user     : 'dani',
+  password : 'meverasvolver',
   database : 'asq'
 }
 

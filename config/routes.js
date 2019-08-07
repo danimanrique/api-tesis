@@ -40,6 +40,8 @@ module.exports.routes = {
    ***************************************************************************/
     /* Mineria Controller */
    'get /holaMundo': 'MineriaController/holaMundo',
+   'get /graficoEmbarazadas': 'MineriaController/graficoEmbarazadas',
+
 
    /* UsuarioAdmin Controller*/
    'post /usuarioadmin/login': 'UsuarioAdmin/login',

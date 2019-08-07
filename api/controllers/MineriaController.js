@@ -12,5 +12,10 @@ module.exports = {
         const obj = await Mineria.holaMundo('HolaMundo');
         return res.json(obj);
     },
+
+    graficoEmbarazadas: async (req, res) => {
+        const obj = await Mineria.graficoEmbarazadas();
+        return res.json(obj);
+    },
 };
 
