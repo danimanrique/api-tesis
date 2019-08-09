@@ -41,7 +41,7 @@ module.exports.routes = {
     /* Mineria Controller */
    'get /holaMundo': 'MineriaController/holaMundo',
    'get /graficoEmbarazadas': 'MineriaController/graficoEmbarazadas',
-
+   'get /traducirDirecciones': 'GeocodeController/traducirDirecciones',
 
    /* UsuarioAdmin Controller*/
    'post /usuarioadmin/login': 'UsuarioAdmin/login',
