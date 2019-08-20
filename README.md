@@ -1,18 +1,18 @@
 # api-asq
 
-** Framework utilizado:
+## Framework utilizado:
 [Sails v1](https://sailsjs.com): es un framework para Node.js. Está realizado bajo el framework Express, incluyendo varias capas de abstracción para hacer un desarrollo más fácil. Posee un ORM, métodos para crear API RESTful y soporte para manejar peticiones en tiempo real gracias a Socket.io.
 
 
-** Instalación
+## Instalación
 TODO
 
 
-** Datos de Entorno
+## Datos de Entorno
 La aplicación precisa de la generación de un archivo que posee datos sensibles de configuración (ej. credenciales de acceso a base de datos), por esta razón no fueron incluidos en este repositorio, pero se proporciona un fichero de ejemplo **[config.private.example](config.private.example)** que debe ser completado por el usuario.
 
 
-** Dependencias Utilizadas:
+## Dependencias Utilizadas:
 - [r-script](https://github.com/joshkatz/r-script): librería para ejecutar scripts de R con parámetros de entradas y salida. Contiene un error en el fichero index.js de la libreria, se sustituyeron las lineas de la función "init" por las siguientes: *(nota abril 2019, verificar updates)*
 ```javascript
 function init(path) {
@@ -28,7 +28,7 @@ function init(path) {
 - [jsonwebtoken](https://github.com/auth0/node-jsonwebtoken): librería utilizada para crear tokens de sesión que identifican a los usuarios de la web y aporta más seguridad para la comunicación entre web y API.
 
 
-** Errores Encontrados:
+## Errores Encontrados:
 - Al ejecutar R surgía el siguiente mensaje:
 ```
 During startup - Warning messages:
