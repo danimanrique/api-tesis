@@ -3,9 +3,9 @@ needs(RMySQL)
 # Crea conexion con la base de datos
 storiesDb <- dbConnect(
   RMySQL::MySQL(), 
-  username = 'dani',
-  password = 'meverasvolver', 
-  dbname = 'etl_db',
+  username = 'usuario',
+  password = 'password', 
+  dbname = 'nombre_base',
   host = 'localhost', 
   port = 3306
 )
