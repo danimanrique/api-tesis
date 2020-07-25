@@ -27,7 +27,7 @@ module.exports.routes = {
   '/': {
     view: 'pages/homepage'
   },
-  
+
   /***************************************************************************
    *                                                                          *
    * More custom routes here...                                               *
@@ -42,6 +42,8 @@ module.exports.routes = {
    'get /holaMundo': 'MineriaController/holaMundo',
    'get /graficoEmbarazadas': 'MineriaController/graficoEmbarazadas',
    'get /traducirDirecciones': 'GeocodeController/traducirDirecciones',
+    'get /getDirecciones': 'GeocodeController/getDirecciones',
+    'get /getDireccionesCentros': 'GeocodeController/getDireccionesCentros',
 
    /* UsuarioAdmin Controller*/
    'post /usuarioadmin/login': 'UsuarioAdmin/login',
