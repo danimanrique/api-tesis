@@ -12,7 +12,7 @@
     "async": "^2.0.1",
     "bcrypt": "^3.0.6",
     "grunt": "1.0.1",
-    "jsonwebtoken": "^8.5.1",
+    "jsonwebtoken": "^9.0.0",
     "moment": "^2.24.0",
     "mysql2": "^1.6.5",
     "r-script": "0.0.3",
